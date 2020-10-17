@@ -14,7 +14,7 @@ function App() {
       </section>
       <ElencoPerCategoria />
       <footer>
-        <p>G.I. | 2020 | Recentz: <a href="https://github.com/giuse92/Project-work" target="_blank" rel="noopener noreferrer">Project Work</a></p>
+        <p>G.I. | 2020 | Recentz: <a href="https://github.com/giuse92/project-work-react" target="_blank" rel="noopener noreferrer">Project Work</a></p>
       </footer>
     </>
   );

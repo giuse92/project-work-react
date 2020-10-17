@@ -48,7 +48,14 @@ class ElencoPerCategoria extends React.Component {
                     {this.state.isDivClicked //quando isDivClicked è true, appare sezione dettaglio
                                             //**inoltre sui div.blocco sono stati annullati gli eventi del pointer
                         ? <section id="dettaglio" >
-                            {this.state.getDiv !== undefined && <img src={`${this.state.getDiv[0].src}`} />}
+                            {this.state.getDiv !== undefined && 
+                                <h1 style={{
+                                    backgroundImage: `linear-gradient(to right, rgba(9, 105, 184, 0.6), rgba(3, 37, 65, 0.6)),
+                                    url(${this.state.getDiv[0].src})`, backgroundSize: 'cover', backgroundPosition: 'center center'
+                            }}>
+                                {this.state.getDiv[2].textContent}
+                            </h1>
+                            }
                                 <button onClick={() => this.setState({
                                 //al click del button BACK, isDivClicked viene negato quindi false
                                 //section#dettaglio non viene mostrata e **gli eventi pointer ripristinati

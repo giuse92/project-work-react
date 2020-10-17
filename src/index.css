@@ -1,0 +1,176 @@
+* {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    z-index: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(3, 37, 65);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+nav .logo {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;    
+}
+
+nav .logo span {
+    font-size: 30px;
+}
+
+#introduzione {
+    height: 220px;
+    margin-top: 60px;
+    padding: 70px 30px;
+    background-image: linear-gradient(to right, rgba(9, 105, 184, 0.6), rgba(3, 37, 65, 0.6)), url('./img/film-1668918_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#introduzione .titolo {
+    font-size: 40px;
+}
+
+#elenco-per-categoria .categoria {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+}
+
+#elenco-per-categoria .categoria .nome-categoria {
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+#elenco-per-categoria .categoria .nome-categoria::first-letter {
+    text-transform: uppercase;
+}
+
+#elenco-per-categoria .categoria .fila-orizz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#elenco-per-categoria .categoria .fila-orizz > .blocco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+
+#elenco-per-categoria .categoria .fila-orizz > .blocco:hover {
+    cursor: pointer;
+    transform: translateY(-5px);   
+}
+
+#elenco-per-categoria .categoria .fila-orizz > .blocco img {
+    height: 250px;
+    width: 160px;
+    border-radius: 1em;
+}
+
+#elenco-per-categoria .categoria .fila-orizz > .blocco .stelle {
+    position: relative;
+    bottom: 20px;
+    font-size: 23px;
+}
+
+#elenco-per-categoria .categoria .fila-orizz > .blocco .titolo-blocco {
+    margin-top: -17px;
+    font-weight: bold;
+}
+
+section#dettaglio {
+    background-color: cadetblue;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+section#dettaglio h1 {
+    margin: 0;
+    padding: 60px 10px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;    
+    text-shadow: 2px 2px 10px rgb(3, 37, 65);
+}
+
+section#dettaglio p, section#dettaglio strong {
+    padding: 0 25px;
+}
+
+section#dettaglio button {
+    display: block;
+    margin: 5px auto;
+    padding: 25px;
+    border-radius: 1em;
+    font: menu;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+footer {
+    padding: 25px 60px;
+    background-color: rgb(3, 37, 65);
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: tomato;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 425px) {
+
+    #introduzione {
+        padding: 25px 30px;
+    }
+
+    #elenco-per-categoria .categoria .nome-categoria::after {
+        content: url('./img/swipe.png');
+    }
+
+    section#dettaglio h1 {
+        padding: 60px 10px;
+        font-size: 35px;
+    }
+
+    section#dettaglio p, section#dettaglio strong {
+    padding: 0 10px;
+}
+}

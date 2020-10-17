@@ -1,0 +1,229 @@
+{
+    "dettaglio": [
+        {
+            "categoria": "fantascienza",
+            "media": [
+                {
+                    "titolo": "Matrix",
+                    "descrizione": "Cinema capace di rappresentare un futuro che è già presente. Fantascienza, USA 1999. Durata 133 Minuti.",
+                    "recensione": "Non perderò molto tempo a elogiare il film, che è una colonna della fantascienza moderna e che fece scuola a suo tempo in quanto a effetti speciali e trama superba. Spendo solo due brevi parole per dire che, per gli appassionati di Matrix, è d'obbligo possedere e gustarsi la versione 4K, che non aggiunge nulla di eccezionale alla qualità visiva del semplice blu-ray, ma che comunque permette di godersi qualche piccolo dettaglio in più nella definizione (il 4K) definitiva per il pubblico. Consigliato soprattutto ai fan sfegatati della saga.",
+                    "stelle": 2,
+                    "percorsoImg": "https://images-na.ssl-images-amazon.com/images/I/91BKjFYwvoL._AC_SY879_.jpg"
+                },
+                {
+                    "titolo": "Avatar",
+                    "descrizione": "James Cameron si conferma un regista capace di fondere spettacolarità e messaggio. Fantascienza, USA, Gran Bretagna 2009. Durata 162 Minuti.",
+                    "recensione": "Molto più di un film, l'universo di Avatar è la genesi del capolavoro di James Cameron. A volte la semplicità racchiude la perfezione senza bisogno di una visione forzatamente futuristica. Film adatto a tutti, azione, trama, sentimento ed effetti speciali, serve altro?",
+                    "stelle": 5,
+                    "percorsoImg": "https://movieplayer.net-cdn.it/images/2010/03/25/la-copertina-di-avatar-dvd-150956.jpg"
+                },
+                {
+                    "titolo": "Rogue One",
+                    "descrizione": "Un episodio indipendente che riporta in superficie senza incertezze il piacere dell'invenzione. Fantascienza, Avventura, Azione - USA 2016. Durata 133 Minuti.",
+                    "recensione": "Film molto bello con effetti speciali che valgono da soli il film. Ogni tanto la trama ha qualche buchetto ma regge alla perfezione. La persona che lo ha ricevuto in regalo lo ha apprezzato. Lo consiglio",
+                    "stelle": 1,
+                    "percorsoImg": "https://images-na.ssl-images-amazon.com/images/I/51TtZdJxXFL._SX324_BO1,204,203,200_.jpg"
+                },
+                {
+                    "titolo": "Tron - Legacy",
+                    "descrizione": "Un viaggio straniante e suggestivo in grado di comunicare ciò che è inesprimibile a parole. Fantascienza, USA 2010. Durata 127 Minuti.",
+                    "recensione": "Seguito bellissimo di un film originalissimo che ha segnato l’infanzia di quelli della mia generazione (anni 70/80), ne segue gli spunti e la storia dei personaggi che lo hanno reso famoso, non lasciando niente al caso e sfruttando, come ogni remake/seguito degno di questo nome dovrebbe fare, la tecnologia attuale nel miglior modo possibile!!!",
+                    "stelle": 2,
+                    "percorsoImg": "https://images-na.ssl-images-amazon.com/images/I/41ZaSR4KgIL._SX342_BO1,204,203,200_.jpg"
+                },
+                {
+                    "titolo": "La guerra dei mondi",
+                    "descrizione": "Fedele al racconto di H.G. Wells, un film spettacolare e favolistico firmato da Spielberg. Fantascienza, USA 2005. Durata 116 Minuti.",
+                    "recensione": "Rivisitazione del classico La guerra dei mondi ,credo degli anni '50.Inutile dire che la visione è ancor più stupenda di quello di allora.Sicuramente è da consigliarne la visione agli appassionati di sf e naturalmente in versione blu-ray.",
+                    "stelle": 4,
+                    "percorsoImg": "https://img.ibs.it/images/8010773100908_0_306_0_75.jpg"
+                },
+                {
+                    "titolo": "Ready Player One",
+                    "descrizione": "Il perfetto meccanismo di intrattenimento. La fuga nel virtuale di Spielberg è un affresco vasto e onnicomprensivo quanto il Paradiso di Tintoretto. Azione, Fantascienza, Thriller - USA 2018. Durata 140 Minuti.",
+                    "recensione": "A me il film è piaciuto tantissimo e poi Steven Spielberg è uno dei miei registi preferiti...che dire io consiglio la visione del film non ve ne pentirete.",
+                    "stelle": 4,
+                    "percorsoImg": "https://m.media-amazon.com/images/I/51HalpiSqgL.jpg"
+                },
+                {
+                    "titolo": "Interstellar",
+                    "descrizione": "Uno dei film più ambiziosi degli ultimi anni in cui una vivacità narrativa e un'originalità registica fortissime costringono lo spettatore al piacere della concentrazione. Fantascienza, USA 2014. Durata 169 Minuti.",
+                    "recensione": "Interstellar è diventato il mio film preferito. Per quanto sia un film fantascientifico, tutto quello che succede sembra plausibile. Mi ha stupito il fatto che un film che parla di viaggi spaziali sia pieno di momenti estremamente commoventi. Per chi come me è molto emotivo, sarà difficile trattenere le lacrime in più di un'occasione. La trama poi è il solito affascinate intreccio che sa creare solo Chrisopher Nolan. Prendete questo film e non ve ne pentirete.",
+                    "stelle": 3,
+                    "percorsoImg": "https://m.media-amazon.com/images/I/51Q5MgobNsL.jpg"
+                },
+                {
+                    "titolo": "Ad Astra",
+                    "descrizione": "Un film angosciante che racconta un'ossessione e si interroga attraverso la science-fiction sull'accettazione dell'età adulta. Fantascienza, Thriller - USA, Brasile 2019. Durata 124 Minuti.",
+                    "recensione": "Bel film, una fantascienza fuori dell'ordinario, realizzata privilegiando il realismo agli effetti speciali, anche se poi alcuni passaggi contraddicono le leggi della fisica e della fisiologia umana.Forse troppo carico di temi e significati, tra ricerca di se stesso, conflitto padre- figlio, idolatria del successo, etc...",
+                    "stelle": 2,
+                    "percorsoImg": "https://images-na.ssl-images-amazon.com/images/I/61adO29XhSL._SY445_.jpg"
+                },
+                {
+                    "titolo": "Star Trek - Il futuro ha inizio",
+                    "descrizione": "J.J. Abrams concepisce le origini di Kirk e Spock, gira il timone del tempo e naviga verso un futuro da inventare. Fantascienza, USA 2009. Durata 127 Minuti.",
+                    "recensione": "Sul genere e sulla saga non dico nulla: Star Trek o si ama o si odia, almeno questa rivisitazione moderna sfrutta gli attuali effetti speciali (e ci mancherebbe anche, direte voi). Personalmente mi è piaciuto.",
+                    "stelle": 3,
+                    "percorsoImg": "https://img.ibs.it/images/8010773105286_0_306_0_75.jpg"
+                },
+                {
+                    "titolo": "Blade runner",
+                    "descrizione": "Un capolavoro della storia del cinema, dove ogni elemento ha saputo comporre lo scenario di un futuro inquietante perché plausibile, dove la tecnologia non è disumana ma troppo umana. Fantascienza, USA 1982.",
+                    "recensione": "Che dire di Blade Runner, un film che tutt'oggi risulta talmente interessante che a confronto molti film di oggi diventano stupidaggini. Una storia raccontata benissimo, con un Harrison Ford ancora giovane ma come sempre eccezionale; non tutte le mie conoscenze hanno visto il film, ma a mio parere rientra tra i 100 da guardare prima di morire",
+                    "stelle": 2,
+                    "percorsoImg": "https://i.etsystatic.com/20343000/r/il/f7a1ed/1946083803/il_570xN.1946083803_mf7q.jpg"
+                }
+            ]
+        },
+        {
+            "categoria": "commedia",
+            "media": [
+                {
+                    "titolo": "Old Man &amp; The Gun",
+                    "descrizione": "L'ultimo film di Redford racchiude una carriera intera, i ruoli che lo hanno consacrato, la passione che non lo ha mai abbandonato. Commedia, Drammatico - USA 2018. Durata 93 Minuti.",
+                    "recensione": "Redford riesce in maniera eccellente a dar vita ad un personaggio che trasmette simpatia per il suo modo di togliere alle banche,film gradevole anche se un po' lento,gli attori di una volta come Robert saranno difficilmente sostituibili,da vedere e da avere nella nostra videoteca",
+                    "stelle": 4,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2017/05/163/locandina.jpg"
+                },
+                {
+                    "titolo": "Tutto può accadere a Broadway",
+                    "descrizione": "Bogdanovich regala un'ora e mezza di puro divertimento, 'svitato' e cinefilo. Commedia, USA 2014. Durata 93 Minuti.",
+                    "recensione": "con una Aniston fantastica. Un po' verboso ma fa passare una serata in allegria...una commedia vecchio stampo, un po' strampalata ma ok!",
+                    "stelle": 2,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2014/07/173/locandina.jpg"
+                },
+                {
+                    "titolo": "Tolo Tolo",
+                    "descrizione": "Checco Zalone si mantiene in equilibrio sul crinale della correttezza politica, colpendo a 360°. Commedia, Italia 2020. Durata 90 Minuti.",
+                    "recensione": "la trama è spettacolare! :)",
+                    "stelle": 3,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/02/007/locandina.jpg"
+                },
+                {
+                    "titolo": "Gloria Bell",
+                    "descrizione": "Julianne Moore è Gloria Bell, una donna forte e fragile insieme che sa risolversi quando tutto sembra affondare, che ha la capacità di ripartire, di ritornare in pista e di danzare. Ancora. Commedia, USA 2018. Durata 102 Minuti.",
+                    "recensione": "se vi aspettate colpi di scena amorosi o rivelazioni inquietanti rimarrete delusissimi. A meno che non abbiate già visto Gloria, il film del 2013 diretto da Sebastián Lelio, di cui questo film è il remake americano.",
+                    "stelle": 1,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2018/11/088/locandina.jpg"
+                },
+                {
+                    "titolo": "Chiamate un dottore!",
+                    "descrizione": "Una commedia lieve e garbata basata sulla simpatia e umanità dei suoi due interpreti. Commedia - Francia, 2019. Durata 90 Minuti.",
+                    "recensione": "E' un buon film",
+                    "stelle": 4,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/12/241/locandina.jpg"
+                },
+                {
+                    "titolo": "Paradise - Una nuova vita",
+                    "descrizione": "Un film lunare che oscilla fra il comico, il tragico e il surreale. Un esperimento interessante. Commedia - Italia, 2020. Durata 85 Minuti.",
+                    "recensione": "Paradise – Una nuova vita coniuga un divertito e divertente modo di raccontare una vicenda drammatica con toni leggeri, senza fuggire dal confronto con il realismo, con paesaggi e ambientazioni che trasfigurano la narrazione, trasportandola in un mondo apparentemente lontano e quasi incantato, ma sempre tangibile e comprensibile.",
+                    "stelle": 3,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/11/133/locandina.jpg"
+                },
+                {
+                    "titolo": "Cosa resta della rivoluzione",
+                    "descrizione": "Una riflessione in forma di commedia sulle rivoluzioni fallite e sulle decisioni semplici ma rivoluzionarie. Commedia - Francia, 2018. Durata 88 Minuti.",
+                    "recensione": "La regia tiene bene durante i duetti familiari esaltandosi nei veloci campo-controcampo ma cede un poco di qualche tono quando deve avventurarsi nel descrivere la storia d’amore tra Angele e Said. Due scene restano impresse nella memoria: la prima è quello del ballo tra padre e figlia mentre scorrono in sovraimpressioni le immagini giovanili della madre, la grande assente, il vero motivo della disperata lotta di Angele alla conquista della propria identità. La seconda è la cena in famiglia nel sottofinale che svela debolezze personali e ossessioni collettive, mostrando come la felicità sia semplicemente una maschera di convenienza. Di fronte alle urla naziste di Stephane che licenzia per finta l’artista Leonore, scopriamo i soprusi e le nefandezze di un sistema che ha come unico scopo il profitto e se ne frega dell’individuo umiliandolo ed emarginandolo dalla collettività.",
+                    "stelle": 5,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/03/237/locandina.jpg"
+                },
+                {
+                    "titolo": "Gli anni più belli",
+                    "descrizione": "Il commovente ritratto di una generazione che Muccino sa mettere a fuoco con una compiutezza senza uguali. Commedia - Italia, 2020. Durata 129 Minuti.",
+                    "recensione": "Se mi avessero fatto vedere Gli anni più belli senza dirmi chi fosse il registra, non avrei avuto dubbi. Perché, se qui troviamo il remake del film di Ettore Scola, C’eravamo tanto amati, ma anche La la land, o La meglio gioventù, non avrei avuto dubbi. Gabriele Muccino ha uno stile tutto suo, che è inconfondibile.",
+                    "stelle": 1,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/04/188/locandina.jpg"
+                },
+                {
+                    "titolo": "The Farewell - Una bugia buona",
+                    "descrizione": "Una commedia sorprendente dai toni sereni e delicati. Un inno alle collisioni di una società aperta. Commedia - USA, Cina, 2019. Durata 98 Minuti.",
+                    "recensione": "Divertente commedia amarognola sulla vita, la morte, la malattia, la famiglia. Girata con grazia e garbo, senza cadere in luoghi comuni. Da vedere",
+                    "stelle": 3,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/05/125/locandina.jpg"
+                },
+                {
+                    "titolo": "Easy living - La vita facile",
+                    "descrizione": "Una piccola storia che riesce a parlare di migranti senza retorica e con leggerezza. Commedia, Italia 2019. Durata 93 Minuti.",
+                    "recensione": "Easy Living - La vita facile va in cerca di un linguaggio inedito per affrontare un tema drammatico. La pellicola si prende il tempo necessario per costruire le sue premesse giocando con lo spettatore che, per tutta la prima parte del film, pensa di trovarsi di fronte a un'astrusa commedia popolata da buffi personaggi. A tratti, sembra di assistere a una moderna slapstick comedy.",
+                    "stelle": 5,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/11/121/locandina.jpg"
+                }
+            ]
+        },
+        {
+            "categoria": "drammatico",
+            "media": [
+                {
+                    "titolo": "Waiting for the barbarians",
+                    "descrizione": "La lotta tra due civiltà viene immortalata da una regia sontuosa ed essenziale che sente però la pressione di Hollywood . Drammatico - USA, Italia, 2019. Durata 114 Minuti.",
+                    "recensione": "Film speciale",
+                    "stelle": 5,
+                    "percorsoImg": "https://scontent.ccdn.cloud/image/nospoiler/9e78490e-b377-46d2-b1cd-58d2c6274176/waiting-for-the-barbarians-poster-2-384x576.jpg"
+                },
+                {
+                    "titolo": "Padrenostro",
+                    "descrizione": "Un bellissimo e straziante ritratto di un rapporto padre-figlio. Con un Pierfrancesco Favino magistrale. Drammatico - Italia, 2020. Durata 120 Minuti.",
+                    "recensione": "Padrenostro si presenta come un’opera ibrida, che ha i tratti del classico racconto di formazione, ma anche le immagini sospese di una realtà che sembra appartenere al sogno, o forse a ricordi lontani, magari distorti dalla fantasia e dal tempo.",
+                    "stelle": 2,
+                    "percorsoImg": "https://pad.mymovies.it/img/image/?size=400&image=https://pad.mymovies.it/cinemanews/2020/169853/locandina-ver.jpg"
+                },
+                {
+                    "titolo": "Tenet",
+                    "descrizione": "Uno spy movie ambizioso e cerebrale che sfida le leggi della fisica e della messinscena. Drammatico - USA, 2020. Durata 150 Minuti.",
+                    "recensione": "Per un’opera che vuole riflettere su destino e libero arbitrio, lo script e il film nel suo complesso, non affondano mai liberamente nell’aspetto sensoriale delle immagini in movimento, e mai in maniera espansa nell’approfondimento testuale. Restando purtroppo chiuso e limitato nella sua costruzione…",
+                    "stelle": 1,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/10/296/locandina.jpg"
+                },
+                {
+                    "titolo": "Guida romantica a posti perduti",
+                    "descrizione": "Un road movie svagato e insieme riflessivo, che flirta con l'abisso e scandisce la frattura col passato. Drammatico - Italia, 2020. Durata 106 Minuti.",
+                    "recensione": "Come scritto nella recensione di Guida romantica a posti perduti, l’opera terza di Giorgia Farina è un road movie ironico e leggero, che affronta il disagio esistenziale di due persone apparentemente molto diverse, in realtà legate dall’angoscia di vivere. Allegra (Jasmine Trinca) ha paura di tutto e vive chiusa in casa, scrivendo di viaggi che non ha mai fatto. Benno (Clive Owen), conduttore televisivo affascinante e ammirato, beve fino a svenire. Vicini di casa, partono insieme per un viaggio in Gran Bretagna, che li porta a riscoprire le proprie radici, a conoscersi, a stabilire finalmente un vero contatto umano.",
+                    "stelle": 2,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2020/07/149/locandina.jpg"
+                },
+                {
+                    "titolo": "Lacci",
+                    "descrizione": "La storia di un carnage domestico, sacrificio vano di una coppia e di una generazione post '68. Drammatico - Italia, 2020. Durata 100 Minuti.",
+                    "recensione": "Daniele Luchetti porta al cinema lo splendido romanzo Lacci di Domenico Starnone, realizzando un film asciutto, essenziale, spesso graffiante.",
+                    "stelle": 4,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2020/07/123/locandina.jpg"
+                },
+                {
+                    "titolo": "Il processo ai Chicago 7",
+                    "descrizione": "Una parata di star per ritrarre la controcultura dell'epoca e ricordare il valore della protesta. Drammatico - USA, 2020. Durata 129 Minuti.",
+                    "recensione": "Un film di grande impatto storico soprattutto di questi tempi, dove i moti contro-culturali e pro-diritti alle minoranze stanno trovando nuovo spazio nella società, oggi più di ieri aperta al cambiamento e disposta ad ammettere errori e tragedie del passato, ancora una volta esposta agli occhi del mondo intero ma sotto forma filmica.",
+                    "stelle": 3,
+                    "percorsoImg": "https://citynews.stgy.ovh/~shared/images/cinema/locandine/il-processo-ai-chicago-7-1hq6uj.jpg"
+                },
+                {
+                    "titolo": "Mai per sempre",
+                    "descrizione": "Massa intreccia 3 relazioni d'amore offrendo ad ognuna una specifica caratterizzazione. Drammatico - Italia, 2020. Durata 90 Minuti.",
+                    "recensione": "Fabio Massa si colloca nuovamente davanti e dietro la camera per un film in cui torna ad indagare sulle relazioni d'amore intrecciandone tre ed offrendo ad ognuna una specifica caratterizzazione.",
+                    "stelle": 5,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2020/03/019/locandina.jpg"
+                },
+                {
+                    "titolo": "Non odiare",
+                    "descrizione": "Un esordio che punta in alto, sonda i limiti del perdono e affida ad Alessandro Gassmann il suo ruolo più bello e viscerale. Drammatico - Italia, Polonia, 2020. Durata 96 Minuti.",
+                    "recensione": "Mauro Mancini affronta un argomento non proprio nuovo ma con un approccio originale, lo fa nell’approccio ai personaggi e in quello alle dinamiche tra di essi, pur volando un po’ troppo a pelo d’acqua, senza mai immergersi a pieno né nelle loro psicologie, né nelle pieghe della trama che più di una volta sembrano sprecate e buttate via, come un finale non troppo riuscito.",
+                    "stelle": 5,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/09/045/locandina.jpg"
+                },
+                {
+                    "titolo": "Assandira",
+                    "descrizione": "Una storia raccontata con passione, dolore ed energia. Drammatico - Italia, 2020. Durata 128 Minuti.",
+                    "recensione": "Assandira è un posto magico, un piccolo paradiso costruito su un sogno, ma proprio come il paradiso terrestre custodisce un’insidia, un pericolo, un lato oscuro che finirà per devastarlo. Attraverso il volto segnato, sempre in primo piano, dell’ottimo e profondo Ledda, Salvatore Mereu racconta una fiaba dall’esito tragico, adotta il linguaggio del thriller investigativo e offre una riflessione antropologica su un dialogo vizioso tra passato e presente, dove il primo è stuprato e strumentalizzato da un presente sempre più annichilito dalla noia.",
+                    "stelle": 4,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2020/07/126/locandina.jpg"
+                },
+                {
+                    "titolo": "Favolacce",
+                    "descrizione": "Una favola tanto nera quanto vera. Perché i draghi dell'amoralità si nascondono dove meno ci si aspetta. Drammatico - Italia, 2020. Durata 98 Minuti.",
+                    "recensione": "Un vero capolavoro, una storia che racconta l'inquietudine ed il disagio delle famiglie moderne. Nascoste dietro il perbenismo si celano sofferenze, invidie, cattiverie quotidiane. Da vedere almeno 2 volte per capire alcune battute e comprendere la posizione temporale dell'inizio e fine del film.",
+                    "stelle": 1,
+                    "percorsoImg": "https://pad.mymovies.it/filmclub/2019/01/142/locandina.jpg"
+                }
+            ]
+        }
+    ]
+}

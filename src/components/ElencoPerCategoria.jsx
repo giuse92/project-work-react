@@ -1,21 +1,5 @@
 import React from 'react';
-
-const SezDettaglio = (props) => {
-
-    return (
-        <section id="dettaglio">
-            <h1 style={{ backgroundImage: `linear-gradient(to right, rgba(9, 105, 184, 0.6), rgba(3, 37, 65, 0.6)), \
-            url(${props.image})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
-               {props.title} 
-            </h1>
-            <p>{props.description}</p>
-            <q style={{fontStyle:"italic", fontWeight: "bold"}}>{props.feedback}</q>
-            <button onClick={props.backClick}>
-                BACK
-            </button>
-        </section>
-    )
-}
+import SezDettaglio from './SezDettaglio'
 
 class ElencoPerCategoria extends React.Component {
     constructor(props) {
@@ -32,7 +16,8 @@ class ElencoPerCategoria extends React.Component {
             isDivClicked: true, //lo state isDivClicked diventa true al momento del click 
                                 //su uno dei blocchi dei film e mi permette di gestire
                                 //dei condizionali nel render
-            getDiv: [...event.currentTarget.children]
+            getDiv: [...event.currentTarget.children],
+            categoryName: event.currentTarget.parentElement.previousElementSibling.textContent
         });
     }
 
@@ -64,11 +49,15 @@ class ElencoPerCategoria extends React.Component {
                 <>  
                     {this.state.isDivClicked ? 
                     <SezDettaglio 
-                    title = {this.state.getDiv[2].textContent}
-                    backClick = {() => this.setState({
-                        isDivClicked: !this.state.isDivClicked,
-                        getDiv: []
-                    })}
+                        title={this.state.getDiv[2].textContent}
+                        image={this.state.getDiv[0].src}
+                        backClick={() => this.setState({
+                            isDivClicked: !this.state.isDivClicked,
+                            getDiv: [],
+                            categoryName: []
+                        })}
+                        myJson={json.dettaglio}
+                        movieCategory={this.state.categoryName}
                     />
                     : null}
                     <section id="elenco-per-categoria">

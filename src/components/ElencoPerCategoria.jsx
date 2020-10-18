@@ -62,6 +62,15 @@ class ElencoPerCategoria extends React.Component {
         } else {
             return (
                 <>  
+                    {this.state.isDivClicked ? 
+                    <SezDettaglio 
+                    title = {this.state.getDiv[2].textContent}
+                    backClick = {() => this.setState({
+                        isDivClicked: !this.state.isDivClicked,
+                        getDiv: []
+                    })}
+                    />
+                    : null}
                     <section id="elenco-per-categoria">
                         {json.dettaglio.map((elmt, i) => {
                             return (

@@ -1,5 +1,22 @@
 import React from 'react';
 
+const SezDettaglio = (props) => {
+
+    return (
+        <section id="dettaglio">
+            <h1 style={{ backgroundImage: `linear-gradient(to right, rgba(9, 105, 184, 0.6), rgba(3, 37, 65, 0.6)), \
+            url(${props.image})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
+               {props.title} 
+            </h1>
+            <p>{props.description}</p>
+            <q style={{fontStyle:"italic", fontWeight: "bold"}}>{props.feedback}</q>
+            <button onClick={props.backClick}>
+                BACK
+            </button>
+        </section>
+    )
+}
+
 class ElencoPerCategoria extends React.Component {
     constructor(props) {
         super(props);
@@ -45,29 +62,6 @@ class ElencoPerCategoria extends React.Component {
         } else {
             return (
                 <>  
-                    {this.state.isDivClicked //quando isDivClicked è true, appare sezione dettaglio
-                                            //**inoltre sui div.blocco sono stati annullati gli eventi del pointer
-                        ? <section id="dettaglio" >
-                            {this.state.getDiv !== undefined && 
-                                <h1 style={{
-                                    backgroundImage: `linear-gradient(to right, rgba(9, 105, 184, 0.6), rgba(3, 37, 65, 0.6)),
-                                    url(${this.state.getDiv[0].src})`, backgroundSize: 'cover', backgroundPosition: 'center center'
-                            }}>
-                                {this.state.getDiv[2].textContent}
-                            </h1>
-                            }
-                                <button onClick={() => this.setState({
-                                //al click del button BACK, isDivClicked viene negato quindi false
-                                //section#dettaglio non viene mostrata e **gli eventi pointer ripristinati
-                                //getDiv diventa undefined
-                                    isDivClicked: !this.state.isDivClicked,
-                                    getDiv: undefined
-                                })}>
-                                BACK
-                                </button>
-                            </section>
-                        : null
-                    }
                     <section id="elenco-per-categoria">
                         {json.dettaglio.map((elmt, i) => {
                             return (

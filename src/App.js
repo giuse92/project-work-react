@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ElencoPerCategoria from './components/ElencoPerCategoria'
+import ElencoPerCategoriaHooks from './components/ElencoPerCategoriaHooks'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <h1 className="titolo">Benvenuto.</h1>
         <h2 className="sottotitolo">Le migliori recensioni del web suddivise per categoria.</h2>
       </section>
-      <ElencoPerCategoria />
+      <ElencoPerCategoriaHooks />
       <footer>
         <p>G.I. | 2020 | Recentz: <a href="https://github.com/giuse92/project-work-react" target="_blank" rel="noopener noreferrer">Project Work</a></p>
       </footer>

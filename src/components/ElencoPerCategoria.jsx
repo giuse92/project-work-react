@@ -7,7 +7,10 @@ class ElencoPerCategoria extends React.Component {
         this.state = {
             error: null,
             isLoaded: false, 
-            json: []
+            json: [],
+            isDivClicked: false,
+            getDiv: [],
+            categoryName: ''
         }
     }
 

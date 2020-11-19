@@ -30,7 +30,7 @@ const ElencoPerCategoriaHooks = (props) => {
             setIsLoaded(true);
             setErr(error)
         })
-    })
+    }, [isLoaded, json, err])
 
     if (err) {
         return <p>Errore nel caricamento: {err.type}</p>

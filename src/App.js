@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import ElencoPerCategoriaHooks from './components/ElencoPerCategoriaHooks'
 
+//ElencoPerCategoriaHooks gestirà i blocchi dinamici con il fetch, tutto il resto è statico
+
 function App() {
   return (
     <>

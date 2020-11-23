@@ -1,6 +1,10 @@
 import React, { Fragment } from 'react';
 
+//Componente funzionale con uso di Hooks
+
 const SezDettaglio = (props) => {
+    const objForCategory = props.myJson.filter(obj => obj.categoria === props.movieCategory);
+    const movieForTitle = objForCategory[0].media.filter(obj => obj.titolo === props.title);
 
     return (
         <section id="dettaglio">
@@ -10,17 +14,18 @@ const SezDettaglio = (props) => {
             }}>
                 {props.title}
             </h1>
-            {props.myJson
+            {/*props.myJson
             .filter(obj => obj.categoria === props.movieCategory)
-            .map(obj => obj.media
+            .map(obj => obj.media 
             .filter(movie => movie.titolo === props.title)
-            .map((movie, idx) => 
-            <Fragment key={`fragment-n-${idx}`}>
-            <p>{movie.descrizione}</p>
+            .map((movie, idx) =>*/
+            <Fragment /* key={`fragment-n-${idx}`} */>
+            <p>{movieForTitle[0].descrizione}</p>
             <blockquote>
-                {movie.recensione}
+                {movieForTitle[0].recensione}
             </blockquote>
-            </Fragment>))}
+            </Fragment>/*))*/
+            }
             <button onClick={props.backClick}>
                 BACK
             </button>

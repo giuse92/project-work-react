@@ -129,8 +129,21 @@ section#dettaglio h1 {
     text-shadow: 2px 2px 10px rgb(3, 37, 65);
 }
 
-section#dettaglio p, section#dettaglio strong {
+section#dettaglio p, section#dettaglio blockquote {
     padding: 0 25px;
+}
+
+section#dettaglio blockquote {    
+    font-style: italic;
+    font-weight: bold;
+}
+
+section#dettaglio blockquote::before {
+    content: '<<';
+}
+
+section#dettaglio blockquote::after {
+    content: '>>';
 }
 
 section#dettaglio button {
@@ -138,7 +151,6 @@ section#dettaglio button {
     margin: 5px auto;
     padding: 25px;
     border-radius: 1em;
-    font: menu;
     font-size: 25px;
     font-weight: 700;
 }
@@ -154,7 +166,8 @@ footer a {
     color: tomato;
 }
 
-/*Mobile*/
+/* Mobile */
+
 @media only screen and (max-width: 425px) {
 
     #introduzione {
@@ -166,11 +179,24 @@ footer a {
     }
 
     section#dettaglio h1 {
-        padding: 60px 10px;
+        padding: 30px 10px;
         font-size: 35px;
     }
 
-    section#dettaglio p, section#dettaglio strong {
-    padding: 0 10px;
-}
+    section#dettaglio p, section#dettaglio blockquote {
+        margin: 25px auto;
+        padding: 3px 10px;
+        font-size: 20px;
+    }
+
+    section#dettaglio p {
+        height: 50px;
+        overflow-y: scroll;
+        
+    }
+
+    section#dettaglio blockquote {
+        height: 100px;
+        overflow-y: scroll;
+    }
 }

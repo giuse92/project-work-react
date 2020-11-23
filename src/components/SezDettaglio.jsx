@@ -17,10 +17,9 @@ const SezDettaglio = (props) => {
             .map((movie, idx) => 
             <Fragment key={`fragment-n-${idx}`}>
             <p>{movie.descrizione}</p>
-            <q style={{fontStyle: 'italic', 
-            fontWeight: 'bold'}}>
+            <blockquote>
                 {movie.recensione}
-            </q>
+            </blockquote>
             </Fragment>))}
             <button onClick={props.backClick}>
                 BACK

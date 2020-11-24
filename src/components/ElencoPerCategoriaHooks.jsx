@@ -34,7 +34,7 @@ const ElencoPerCategoriaHooks = (props) => {
             setIsLoaded(true);
             setErr(error)//in caso di errore, err = {errore}
         })
-    }, [isLoaded, json, err])
+    }, [isLoaded, json, err])//imposto l'array delle deps
 
     if (err) {
         return <p style={{textAlign: 'center'}}>Errore nel caricamento</p>

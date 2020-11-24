@@ -4,7 +4,11 @@ import React, { Fragment } from 'react';
 
 const SezDettaglio = (props) => {
     const objForCategory = props.myJson.filter(obj => obj.categoria === props.movieCategory);
+    //objForCategory = [{categoria:categoryName, media: [{...}x10]}]    
     const movieForTitle = objForCategory[0].media.filter(obj => obj.titolo === props.title);
+    //movieForTitle = [{title: getDiv[2].textContent, recensione: '...', descrizione: '...', ...}]
+
+
 
     return (
         <section id="dettaglio">
